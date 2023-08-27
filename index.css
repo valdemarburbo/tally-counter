@@ -1,0 +1,75 @@
+body {
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg");
+    background-size: cover;
+    font-family: Ubuntu, BlinkMacSystemFont, Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vw;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    max-width: 10rem;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+.tally-face {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    max-width: 16rem;
+    margin: 0 auto;
+    border: solid 2px black;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    border-left: solid 2px orange;
+    border-right: solid 2px orange;
+    color: orange;
+}
+
+#save-el {
+    background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 5px;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 10px 0;
+}
